@@ -1,0 +1,11 @@
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Presentation\Nop.Web\Plugins\Payments.BrainTree\Views\PaymentBrainTree\Configure.cshtml
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Presentation\Nop.Web\Plugins\Payments.BrainTree\Views\PaymentBrainTree\PaymentInfo.cshtml
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Presentation\Nop.Web\Plugins\Payments.BrainTree\web.config
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Presentation\Nop.Web\Plugins\Payments.BrainTree\Description.txt
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Presentation\Nop.Web\Plugins\Payments.BrainTree\logo.jpg
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Presentation\Nop.Web\Plugins\Payments.BrainTree\Nop.Plugin.Payments.BrainTree.dll.config
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Presentation\Nop.Web\Plugins\Payments.BrainTree\Nop.Plugin.Payments.BrainTree.dll
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Presentation\Nop.Web\Plugins\Payments.BrainTree\Nop.Plugin.Payments.BrainTree.pdb
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Plugins\Nop.Plugin.Payments.BrainTree\obj\Debug\Nop.Plugin.Payments.BrainTree.csprojResolveAssemblyReference.cache
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Plugins\Nop.Plugin.Payments.BrainTree\obj\Debug\Nop.Plugin.Payments.BrainTree.dll
+C:\Users\M\Documents\GitRepo\nop380-jwt-taxjar-plugin\Plugins\Nop.Plugin.Payments.BrainTree\obj\Debug\Nop.Plugin.Payments.BrainTree.pdb
