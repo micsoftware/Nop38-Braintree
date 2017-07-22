@@ -94,7 +94,8 @@ namespace Nop.Plugin.Payments.BrainTree
             {
                 Number = processPaymentRequest.CreditCardNumber,
                 CVV = processPaymentRequest.CreditCardCvv2,
-                ExpirationDate = processPaymentRequest.CreditCardExpireMonth + "/" + processPaymentRequest.CreditCardExpireYear
+                ExpirationDate = processPaymentRequest.CreditCardExpireMonth + "/" + processPaymentRequest.CreditCardExpireYear,
+                CardholderName = processPaymentRequest.CreditCardName
             };
             transactionRequest.CreditCard = transactionCreditCardRequest;
 
@@ -106,11 +107,10 @@ namespace Nop.Plugin.Payments.BrainTree
                 Company = customer.BillingAddress.Company,
                 Email = customer.BillingAddress.Email,
                 Phone = customer.BillingAddress.PhoneNumber,
-                CustomerId = customer.Id.ToString(),
+                CustomerId = customer.Id.ToString()
                 //Website = customer.GetAttribute<string>("Website")
             };
             transactionRequest.Customer = customerRequest;
-            transactionRequest.CustomerId = processPaymentRequest.CustomerId.ToString();
             transactionRequest.OrderId = processPaymentRequest.OrderGuid.ToString();
 
             //address request
@@ -119,7 +119,10 @@ namespace Nop.Plugin.Payments.BrainTree
                 FirstName = customer.BillingAddress.FirstName,
                 LastName = customer.BillingAddress.LastName,
                 StreetAddress = customer.BillingAddress.Address1,
-                PostalCode = customer.BillingAddress.ZipPostalCode
+                Locality = customer.BillingAddress.City,
+                Region = customer.BillingAddress.StateProvince.Abbreviation,
+                PostalCode = customer.BillingAddress.ZipPostalCode,
+                CountryName = customer.BillingAddress.Country.Name
             };
             transactionRequest.BillingAddress = addressRequest;
 
