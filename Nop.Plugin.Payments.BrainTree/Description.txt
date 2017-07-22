@@ -1,7 +1,7 @@
 ﻿Group: Payment methods
 FriendlyName: Credit Card
 SystemName: Payments.BrainTree
-Version: 1.00
+Version: 1.10
 SupportedVersions: 3.80
 Author: MiC Software
 DisplayOrder: 1
